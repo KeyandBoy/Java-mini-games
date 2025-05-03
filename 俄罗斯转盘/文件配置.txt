@@ -1,0 +1,19 @@
+project-root/
+├── resources/
+│   ├── images/
+│   │   ├── revolver.png    (左轮手枪图片)
+│   │   └── skull.png       (骷颅头图片)
+│   └── sounds/
+│       ├── spin.wav        (轮盘转动声)
+│       ├── trigger.wav     (扳机声)
+│       ├── hit.wav         (子弹击中声)
+│       └── gameover.wav    (失败音效)
+├── src/
+│   ├── Revolver.java       (左轮手枪逻辑)
+│   ├── GamePanel.java      (游戏面板)
+│   ├── SoundPlayer.java    (音效管理)
+│   └── MainApplication.java (主界面)
+│
+├── audio_check.bat(音效校验)
+├── convert_audio_fixed.bat(音频转换)
+├──run.bat(运行)
